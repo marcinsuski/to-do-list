@@ -42,6 +42,13 @@ body::before {
     margin-bottom: 20px;
 }
 
+#task-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 input {
     flex: 5;
     margin-right: 10px;
